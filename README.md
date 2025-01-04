@@ -12,8 +12,10 @@ To complete the PCB you will also need:
 
 You will also need something like:
 
-- A 5V power supply like the Mean Well 5V@10A power supply IRM-60-5ST
+- A 5V power supply like the Mean Well 5V@10A power supply: IRM-60-5ST
 - 5V digital LED strip or matrix.
+
+If you choose to use a different or lower amperage 5V power supply, then you must also use lower power glass fuses. Reserve 1A for the low power components then divide by 3 for the fuse rating. For example (10A - 1A) / 3 = 3A. Also make sure the power supply can handle short circuits by switching off or go into hiccup mode.
 
 # Design choices
 
@@ -27,11 +29,11 @@ The ESP32 will be powered by the same 5V power supply. A 0.5A 1812 polyfuse with
 
 A N-channel MOSFET (AOD442) will be used as a 5V reverse polarity protection.
 
-The power to the LEDs can be injected in 2 sections. Both are fused by a 5x20mm 3A slow blow glass fuse paired with 5V bidirectional TVS diodes (like SMBJ5.0CA). Red LEDs will be parallel connected to easily identify a blown fuse.
+The power to the LEDs can be injected in 2 sections. Both are fused by a 5x20mm slow blow glass fuse paired with 5V bidirectional TVS diodes (like SMBJ5.0CA). Red LEDs will be parallel connected to easily identify a blown fuse.
 
 # Firmware
 
-Install `ESP32_WROVER.bin`.
+Install `ESP32_WROVER.bin`. Configure current limit at 5A.
 
 # ESP32 pins
 
@@ -47,6 +49,6 @@ Install `ESP32_WROVER.bin`.
 | MISO   | IO19      | SPI data in                         |
 | MOSI   | IO23      | SPI data out                        |
 
-Note: the 3V3 on the I2C and SPI connectors come from the ESP32 3V3 regulator, keep current usage below 100mA.
+Note: the 3V3 on the I2C and SPI PMOD connectors come from the ESP32 3V3 regulator, keep current usage below 100mA.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)

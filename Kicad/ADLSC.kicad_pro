@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.0,
+          "height": 1.2,
+          "width": 2.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,11 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|22115000|20265000|0a2940aa-5236-4df6-ad91-49872cdc8a9c|31aac5e6-bf6a-475e-8f82-2c50ee6b6f32",
+        "courtyards_overlap|22115000|30425000|31aac5e6-bf6a-475e-8f82-2c50ee6b6f32|da76de9b-e740-4199-9b5f-bcc07356c239",
+        "courtyards_overlap|22115000|40585000|25d99bf4-7b71-4ead-b5d0-10dd4fd917ea|da76de9b-e740-4199-9b5f-bcc07356c239"
+      ],
       "meta": {
         "version": 2
       },
@@ -97,8 +101,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -181,7 +185,7 @@
         0.0,
         0.44,
         1.0,
-        4.0
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -213,6 +217,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
+        },
+        {
+          "diameter": 1.6,
+          "drill": 0.8
         }
       ],
       "zones_allow_external_fillets": false
