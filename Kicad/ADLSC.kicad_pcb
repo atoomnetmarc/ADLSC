@@ -264,7 +264,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm*")
-		(path "/a6d13860-1493-4fae-b945-f58371c58ddf")
+		(path "/7484c339-d490-43ae-8fa9-b5497df7d844")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
 		(attr smd)
@@ -2437,7 +2437,7 @@
 		(path "/e6f80723-68b2-43fd-a985-073543935b80")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -4892,7 +4892,7 @@
 		(path "/86d0952c-b70b-412a-8fce-431db6ce1f92")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -7622,7 +7622,7 @@
 		(path "/44c57b0b-67f1-4d11-b7a1-250c538c5663")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.11 -1.33)
 			(end -1.11 0)
@@ -11081,7 +11081,7 @@
 		(path "/6e9752c8-ac50-4149-9779-a30c92f2f606")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -11797,7 +11797,7 @@
 		(path "/c920d37f-acfa-4baa-aabe-ea53d89580d5")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -12220,7 +12220,7 @@
 		(path "/6398ed3f-08f4-4fab-8bee-df1566c7aaa3")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr through_hole dnp)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.11 -1.33)
 			(end -1.11 0)
@@ -16726,7 +16726,7 @@
 		(path "/59951ed0-7b47-41c8-a226-b04342610a5a")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)
@@ -17152,7 +17152,7 @@
 		(path "/dee8f5a2-d450-4577-bbc8-867d646dbbb8")
 		(sheetname "Root")
 		(sheetfile "ADLSC.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.227064 0.735)
 			(end 0.227064 0.735)

@@ -76,6 +76,10 @@ Install `ESP32_WROVER.bin`. Configure current limit at 5A.
 | MISO     | IO19      | SPI data in                         |
 | MOSI     | IO23      | SPI data out                        |
 
+# Expansion PMOD connectors
+
+You could add you own custom functionality using the I2C and SPI PMOD connectors. Consult the schematic on what extra components you should solder to the PCB. These components are excluded from the BOM.
+
 Note: the 3V3 on the I2C and SPI PMOD connectors come from the ESP32 3V3 regulator, keep current usage below 100mA.
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
