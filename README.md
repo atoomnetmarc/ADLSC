@@ -2,7 +2,7 @@
 
 ESP32 based 5V digital LED controller build for use with [WLED](https://kno.wled.ge/).
 
-![](ADLSC-render.png)
+![](ADLSC.jpg)
 
 # Design choices
 
