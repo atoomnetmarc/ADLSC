@@ -107,9 +107,11 @@ Configure:
     - Default brightness: 128
     - Brightness factor: 25%
 - 2D configuration
+   - Strip or panel: 2D Matrix
    - Number of panels: 1
    - Panel 0
      - 1<sup>st</sup> LED: Top Left
+     - Orientation: Vertical
      - Serpentine
      - Dimensions: 80x8
 
